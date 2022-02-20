@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+body{
+    background: url("images/log.png");
+    box-shadow: 10px 10px 15px black, -10px -10px 15px black ;
+    backdrop-filter: blur (10px);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0,0,0,0.5));
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.login-form{
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    position: absolute;
+}
+.login-form h1{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+.login-form p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+.login-form input{
+font-size: 16px;
+width: 100%;
+padding: 15px 10px;
+border: 0px;
+outline: none;
+border-radius: 5px;
+}
+.login-form button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border-radius: 5px;
+}
+.hoverr{
+    text-decoration: none;
+    color: black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.9s ease;
+    font-size: 14px;
+}
+button:hover{
+    background-color: green;
+    color: white;
+}
+.logo img{
+    float: left;
+    width: 50%;
+    max-width: 150px;
+    height:auto ;
+}
+.user{
+text-shadow: black(5, 5, 5) 10px 5px 15px ;
+font-family:'Luckiest Guy', cursive;;
+}

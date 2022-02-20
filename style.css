@@ -1,0 +1,228 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century Gothic;
+
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("images/bck.png") ;
+    background-size: cover;
+    background-position: center;
+}
+header{
+height: 100vh;
+background-size: cover;
+background-position: center;
+background-repeat: repeat-y;
+}
+
+.login{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+}
+.signup{
+    font-family: 'Orbitron', sans-serif;
+    color: green;
+}
+
+.for-login{
+    font-family: 'Great Vibes', cursive;
+    font-size: 250%;
+    color: black;
+    text-shadow: white 0px 5px 15px ;
+}
+
+/* .main{
+    max-width: 1200px;
+    margin:auto;
+} */
+/* .title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+} */
+/* .title h1{
+    color: #fff;
+    font-size: 70px;
+    font-family: new1;
+    font-size: 10vw;
+    font-stretch: wider;
+} */
+  .h2{
+    color: black;
+    font-size: 30px;
+    font-family: 'Redressed', cursive;
+    font-size: 5vw;
+    font-stretch: wider;
+    text-align: center;
+left: -500px;
+font-weight: bold;
+}
+.h21{
+    background-color: green;
+    color: white;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+.a2{
+    position: relative;
+    display: inline-block;
+    padding: 35px 70px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-family: new;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    text-align: center;
+}
+.a2:hover{
+    color: white;
+    background:#2f913f ;
+    box-shadow:0 0 10px #289236,0 0 40px #258d33,0 0 80px #248a3a ;
+    transition-delay: 1s;
+    font-family: new;
+  }
+  .a2 span{
+      position: absolute;
+      display: block;
+  }
+  .a2 span:nth-child(1){
+     top: 0;
+     left: -100%;
+     width: 100%;
+     height: 2px;
+     background: linear-gradient(90deg, transparent, #278024);
+  }
+  .a2:hover span:nth-child(1){
+     left: 100%;
+     transition:1s;
+  }
+  .a2 span:nth-child(3){
+     bottom: 0;
+     right: -100%;
+     width: 100%;
+     height: 2px;
+     background: linear-gradient(270deg, transparent,#278024);
+  }
+  .a2:hover span:nth-child(3){
+     right: 100%;
+     transition:1s;
+     transition-delay: 0.5s;
+  }
+  .a2 span:nth-child(2){
+     top: -100%;
+     right: 0;
+     width: 2px;
+     height: 100%;
+     background: linear-gradient(180deg, transparent,#278024);
+  }
+  .a2:hover span:nth-child(2){
+     top: 100%;
+     transition:1s;
+     transition-delay: 0.25s;
+  }
+  .a2 span:nth-child(4){
+     bottom: -100%;
+     left: 0;
+     width: 2px;
+     height: 100%;
+     background: linear-gradient(360deg, transparent,white);
+  }
+  .a2:hover span:nth-child(4 ){
+     bottom: 100%;
+     transition:1s;
+     transition-delay: 0.75s;
+  }
+.body3{
+    margin: 0px;
+    padding:0px;
+    display: inline-block;
+    justify-content: right;
+    align-items: center;
+    min-height: 20vh;
+    top: 20vh;
+    left: 490px;
+    display: block;
+    padding: 10px;
+    text-align: justify;
+}
+ .a3{
+    position: relative;
+    display: inline-block;
+    padding: 35px 70px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    text-align: center;
+    font-family: new2;
+}
+.a3:hover{
+    color: green;
+    background:white;
+    box-shadow:0 0 10px white,0 0 40px white,0 0 80px white;
+    transition-delay: 1s;
+  }
+  .a3 span{
+      position: absolute;
+      display: block;
+  }
+  .a3 span:nth-child(1){
+     top: 0;
+     left: -100%;
+     width: 100%;
+     height: 2px;
+     background: linear-gradient(90deg, transparent,white);
+  }
+  .a3:hover span:nth-child(1){
+     left: 100%;
+     transition:1s;
+  }
+  .a3 span:nth-child(3){
+     bottom: 0;
+     right: -100%;
+     width: 100%;
+     height: 2px;
+     background: linear-gradient(270deg, transparent,white);
+  }
+  .a3:hover span:nth-child(3){
+     right: 100%;
+     transition:1s;
+     transition-delay: 0.5s;
+  }
+  .a3 span:nth-child(2){
+     top: -100%;
+     right: 0;
+     width: 2px;
+     height: 100%;
+     background: linear-gradient(180deg, transparent,white);
+  }
+  .a3:hover span:nth-child(2){
+     top: 100%;
+     transition:1s;
+     transition-delay: 0.25s;
+  }
+  .a3 span:nth-child(4){
+     bottom: -100%;
+     left: 0;
+     width: 2px;
+     height: 100%;
+     background: linear-gradient(360deg, transparent,rgb(52, 161, 61));
+  }
+  .a3:hover span:nth-child(4 ){
+     bottom: 100%;
+     transition:1s;
+     transition-delay: 0.75s;
+  }
+  .body3{
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+  }
